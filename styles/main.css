@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header.site-init{
+    background-color: steelblue;
+    color: violet;
+    height: 30vh;
+}
+
+.bar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%
+}
+.menu a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.input-error{
+    border: 1px solid red;
+}
